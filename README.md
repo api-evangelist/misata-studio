@@ -1,4 +1,4 @@
-# misata-studio
+# Misata
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-misata-studio is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://misata.studio/
+Misata provides synthetic datasets for demos, analytics, and AI model training. Their platform lets users generate multi‑table, realistic data from a simple business description, supporting use cases such as product demos, dashboard testing, and evaluation of analytics pipelines. Misata offers ready‑made datasets across industries like SaaS, e‑commerce, healthcare, and finance, as well as custom dataset creation on demand. The service includes data export in SQL, Parquet, dbt seeds, and more, with built‑in verification and documentation.
+
+**Areas:** Synthetic Data · AI · Analytics · Datasets · SaaS
+
+## Misata on APIs.io
+
+Everything profiled for Misata is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/misata-studio/](https://apis.io/providers/misata-studio/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Misata Datasets API](https://apis.io/apis/misata-studio/misata-studio-datasets-api/) — Start, follow, list, cancel and delete datasets.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Misata Studio Webhooks](https://apis.io/asyncapis/misata-studio/misata-studio-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Misata Agentic Access](https://apis.io/agentic-access/misata-studio/misata-studio-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Dataset](https://apis.io/schemas/misata-studio/misata-studio-dataset/)
+- [DatasetRequest](https://apis.io/schemas/misata-studio/misata-studio-dataset-request/)
+- [ExportRequest](https://apis.io/schemas/misata-studio/misata-studio-export-request/)
+- [LoadRequest](https://apis.io/schemas/misata-studio/misata-studio-load-request/)
+- [Revision](https://apis.io/schemas/misata-studio/misata-studio-revision/)
+- [RevisionRequest](https://apis.io/schemas/misata-studio/misata-studio-revision-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Misata Studio Context](https://apis.io/jsonld/misata-studio/misata-studio-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Misata API Rules](https://apis.io/rules/misata-studio/misata-studio-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Misata Authentication](https://apis.io/security/misata-studio/misata-studio-authentication/)
+- [Misata Domain Security](https://apis.io/security/misata-studio/misata-studio-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Misata Plans Pricing](https://apis.io/plans/misata-studio/misata-studio-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://misata.studio/)
+- [Documentation](https://www.misata.studio/docs)
+- [Getting started](https://www.misata.studio/docs/quickstart)
+- [API reference](https://www.misata.studio/docs/reference/python-api)
+- [Pricing](https://www.misata.studio/pricing)
+- [Support](https://www.misata.studio/guides)
+- [Changelog](https://www.misata.studio/changelog)
+- [Blog](https://www.misata.studio/blog)
+- [Security](https://www.misata.studio/security)
+- [Privacy policy](https://www.misata.studio/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.8** — strong · rubric 0.28.0 · scored 2026-11-18
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 70.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.0 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 40.0 |
+
+**Agent readiness 62.1** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/misata-studio/](https://apis.io/providers/misata-studio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Misata: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/misata-studio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
